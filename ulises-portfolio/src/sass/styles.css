@@ -1,3 +1,8 @@
+html {
+  background-color: #FCF5C7;
+}
+
+/*-----------------------------------------------------NAV-------------------------------------------------------*/
 nav {
   position: fixed;
   top: 0;
@@ -38,6 +43,51 @@ a {
   padding: 5px;
   color: #000;
   font-size: 18px;
+}
+
+/*----------------------------------------------Header---------------------------------------------------*/
+.header-class {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10rem;
+}
+
+.Name {
+  font-size: x-large;
+}
+
+/*------------------------------------------------ABOUTME-------------------------------------------------*/
+.about-me {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  margin-top: 10rem;
+  background-color: #79ADDC;
+}
+
+.about-me-text {
+  font-size: x-large;
+}
+
+/*------------------------------------------------SERVICES---------------------------------------------------*/
+.my-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10rem;
+}
+
+/*------------------------------------------------PROJECTS----------------------------------------------------*/
+.projects-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10rem;
+  background-color: #ADF7B6;
+}
+
+/*-------------------------------------------------CONTACT----------------------------------------------------*/
+.contact-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10rem;
 }
 
 @media screen and (max-width: 500px) {

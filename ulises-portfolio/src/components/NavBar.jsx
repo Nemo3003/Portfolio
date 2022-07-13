@@ -1,7 +1,7 @@
 import '../sass/styles.css';
 
 
-export default function Navbar(){
+export default function NavBar(){
     return <nav className="navigation">
         <ul className='list'>
             <li className='items'><a href="#">Home</a></li>

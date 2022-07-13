@@ -5,6 +5,11 @@ $old-color: #713E5A;
 $tworm-padding: 2rem;
 $border-top: "1px solid rgba(255, 255, 255, 0.555)";
 $no-bullet: "none";
+$larger-font: "x-large";
+html{
+    background-color: #FCF5C7;
+}
+/*-----------------------------------------------------NAV-------------------------------------------------------*/
 nav {
     position: fixed;
     top: 0;
@@ -44,6 +49,50 @@ a{
     padding: 5px;
     color: #000;
     font-size: 18px;
+}
+/*----------------------------------------------Header---------------------------------------------------*/
+.header-class{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10rem;
+    
+}
+.Name{
+    font-size:x-large;
+}
+/*------------------------------------------------ABOUTME-------------------------------------------------*/
+.about-me{
+    display: grid;
+    grid-template-columns: .4fr 1fr;
+    margin-top: 10rem;
+    background-color: #79ADDC;
+}
+.about-me-text{
+    font-size: x-large;
+}
+/*------------------------------------------------SERVICES---------------------------------------------------*/
+.my-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10rem;
+
+}
+/*------------------------------------------------PROJECTS----------------------------------------------------*/
+.projects-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10rem;
+    background-color: #ADF7B6;
+}
+/*-------------------------------------------------CONTACT----------------------------------------------------*/
+.contact-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10rem;
+    
+}
+.contact-me-form{
+    
 }
 @media screen and (max-width: 500px){
     .list {
