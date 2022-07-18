@@ -7,21 +7,21 @@ import { stockData } from "../data/projects";
 export const FetchJson = () => {
   return (
     <>
-    <div>
+   
         {stockData.map((data, key)=>{
             return(
-                <div key={key}>
+                <div key={key} className={data.location}>
                     {
                         data.project
                           + data.description+ 
                           " \n"+ data.stack+ " "
                           + data.start_date + " "
                           + data.end_date
-                        + " " + data.status + <img src="data.project" alt="data.image"/>
+                        + " " + data.status 
                     }
                 </div>
             )
         })}
-    </div>
+    
     </>)
 };

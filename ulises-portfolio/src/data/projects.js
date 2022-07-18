@@ -1,5 +1,6 @@
 export const stockData = [
     {
+      location: "prj1",
       project: "Project 1",
       description: "lorem lorem lorem",
       start_date: "22.76 USD",
@@ -9,6 +10,7 @@ export const stockData = [
       image: "https://via.placeholder.com/150"
     },
     {
+      location: "prj2",
         project: "Project 2",
         description: "lorem lorem lorem",
         start_date: "22.76 USD",
@@ -18,6 +20,7 @@ export const stockData = [
         image: "https://via.placeholder.com/150"
       },
       {
+        location: "prj3",
         project: "Project 3",
         description: "lorem lorem lorem",
         start_date: "22.76 USD",
@@ -27,6 +30,7 @@ export const stockData = [
         image: "https://via.placeholder.com/150"
       },
       {
+        location: "prj4",
         project: "Project 4",
         description: "lorem lorem lorem",
         start_date: "22.76 USD",
@@ -36,6 +40,7 @@ export const stockData = [
         image: "https://via.placeholder.com/150"
       },
       {
+        location: "prj5",
         project: "Project 5",
         description: "lorem lorem lorem",
         start_date: "22.76 USD",
@@ -45,6 +50,7 @@ export const stockData = [
         image: "https://via.placeholder.com/150"
       },
       {
+        location: "prj6",
         project: "Project 6",
         description: "lorem lorem lorem",
         start_date: "22.76 USD",
