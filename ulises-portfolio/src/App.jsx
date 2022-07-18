@@ -7,7 +7,7 @@ import ContactMe from './components/ContactMe'
 import Footer from './components/Footer'
 
 
-export const App=()=> {
+function App() {
 
   return (
     <div className="App">
@@ -22,4 +22,4 @@ export const App=()=> {
   )
 }
 
-
+export default App

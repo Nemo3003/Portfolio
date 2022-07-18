@@ -11,9 +11,7 @@ export const FetchJson = () => {
         {stockData.map((data, key)=>{
             return(
                 <div key={key} className={data.location}>
-                    {
-                        data.project
-                    }
+                    <h4>{data.project}</h4>
                     <br />
                     <img src={data.image} alt="data" />
                     <br />

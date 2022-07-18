@@ -5,11 +5,22 @@ export default function ContactMe(){
         <>
         <div className="contact-me">
             <div className='contact-me-text'>
-                <h1>Contact Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quas vel odio eligendi rerum quos reprehenderit odit atque vero excepturi deleniti, <br /> repellat numquam amet blanditiis ducimus vitae nemo eveniet provident!</p>
+                <h1>Get in touch</h1>
+                <p>If you have any suggestion or project, please send me an email and let's get started.</p>
+                <h3>Name</h3>
+                <p>Ulises Mariano Melgarejo</p>
+                <h3>Location</h3>
+                <p>Argentina</p>
+                <h3>Email</h3>
+                <p>devulmarmel@protonmail.com</p>
             </div>
             <div className='contact-me-form'>
-                <button>Contact me</button>
+                <br />
+                <h1>Contact me</h1>
+                <br />
+                <button>
+                    <a href="mailto:devulmarmel@protonmail.com" target="_blank">Email</a>
+                </button>
             </div>
         </div>
         </>
