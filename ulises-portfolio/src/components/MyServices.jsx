@@ -6,7 +6,7 @@ export default function MyServices() {
         <div className="my-services">
             <div className='my-services-1'>
                 <img src="sdf" alt="first" />
-                <h4>First one</h4>
+                <h4>Web Development</h4>
                 <p>lorem ipsummm</p>
             </div>
             <div className='my-services-2'>

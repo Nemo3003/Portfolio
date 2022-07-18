@@ -13,12 +13,21 @@ export const FetchJson = () => {
                 <div key={key} className={data.location}>
                     {
                         data.project
-                          + data.description+ 
-                          " \n"+ data.stack+ " "
-                          + data.start_date + " "
-                          + data.end_date
-                        + " " + data.status 
                     }
+                    <br />
+                    <img src={data.image} alt="data" />
+                    <br />
+                    {data.description}
+                    <br />
+                    {data.stack}
+                    <br />
+                    {data.start_date}
+                    <br />
+                    {data.end_date}
+                    <br />
+                    {data.status}
+                    <br />
+                    <br />
                 </div>
             )
         })}
