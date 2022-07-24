@@ -1,2 +1,7 @@
 # Portfolio
-My Portfolio Updated
+My Updated Portfolio
+# Technologies
+- React
+- Javascript
+- SASS
+- Bootstrap
