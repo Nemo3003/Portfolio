@@ -4,7 +4,7 @@ export default function AboutMe() {
     return(
         <div className="about-me">
             <div className='pic-about'>
-                <img src="../img/imagg.jpg" alt="my image" />
+                <img src="../img/image.jpg" alt="my image" />
             </div>
             <div className='about-me-text'>
                 <h1>About Me</h1>
