@@ -1,32 +1,49 @@
-
+import { NavLink, useNavigate } from "react-router-dom";
 export const NavBar= () => {
+    const navigate = useNavigate()
   return (
     <>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Ulises' Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact Me</a>
-            </li>
+       <div>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3 shadow-sm">
+        <div className="container ">
+          <NavLink className="navbar-brand fw-bold fs-4" to="/">
+            Ulises' Portfolio
+          </NavLink>
+        
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+              <li className="nav-item">
+                <NavLink className="nav-link active" aria-current="page" to="/">Home </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/about">
+                  About Us
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/projects">
+                  Projects
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/education">
+                  Education
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/contact">
+                  Contact us
+                </NavLink>
+              </li>
             </ul>
+          </div>
         </div>
-        </nav>
-      </>
+      </nav>
+    </div>
     );
+    </>
+    )
 }

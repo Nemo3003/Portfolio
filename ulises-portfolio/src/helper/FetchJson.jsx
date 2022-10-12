@@ -7,8 +7,6 @@ import { stockData } from "../data/projects";
 export const FetchJson = () => {
   return (
     <>
-        
-   
         {stockData.map((data, key)=>{
             return(
                 <div key={key} className={data.location}>

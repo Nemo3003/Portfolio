@@ -1,7 +1,7 @@
 import React from 'react'
 import '../sass/styles.css';
 
-export default function MyServices() {
+export default function MyEducation() {
     return(
         <div className="container">
         <div className="row gx-5">
