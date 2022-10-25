@@ -1,5 +1,6 @@
 import React from 'react'
 import '../sass/styles.css';
+import "../styles/index.css"
 
 export default function MyEducation() {
     return(

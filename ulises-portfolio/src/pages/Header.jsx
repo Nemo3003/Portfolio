@@ -1,6 +1,7 @@
 import React from 'react'
 import '../sass/styles.css';
 import me from '../assets/me.jpg'
+import "../styles/index.css"
 
 export default function Header() {
     return(
