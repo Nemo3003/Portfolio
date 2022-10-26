@@ -5,3 +5,4 @@ My Updated Portfolio
 - Javascript
 - SASS
 - Bootstrap
+- Tailwind
