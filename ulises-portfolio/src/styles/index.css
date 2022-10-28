@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-pic{
+    border-radius: 50%;
+    max-width: 15rem;
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.my-proj{
+    margin: 3rem;
+    padding: 0 3rem;
+}
+.my-proj > *{
+    border: solid 1px #333;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+}   

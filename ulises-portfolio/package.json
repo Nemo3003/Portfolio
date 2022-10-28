@@ -9,12 +9,14 @@
     "node-sass": "node-sass --output-style compressed -o dist/css src/scss"
   },
   "dependencies": {
+    "@material-tailwind/react": "^1.2.4",
     "bootstrap": "^5.2.0",
     "cdbreact": "^1.5.3",
     "node-sass": "^7.0.1",
     "react": "^18.0.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.0.0",
+    "react-loading-icons": "^1.1.0",
     "react-router-dom": "^6.4.2"
   },
   "devDependencies": {

@@ -7,7 +7,7 @@ export default function Projects(){
     return(
         <>
         
-        <div className='projects-div'>
+        <div className='flex flex-wrap justify-evenly my-proj'>
                 <FetchJson/>
             </div>
             </>
